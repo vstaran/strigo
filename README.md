@@ -2,8 +2,6 @@
 
 # Strigo Utils
 
-This is a library that contains several utility functions to manipulate strings.
-
 Strigo is a TypeScript library that provides a range of utility functions for string manipulation. Whether you're building a web application, working with text data, or just need to manipulate strings in your code.
 
 But beware! Strigo can be a bit unpredictable. Sometimes it may turn your strings into frogs or send them to the moon. That's just the nature of magic. So if you're feeling brave, join the Strigo academy and unlock the full potential of your strings. Just remember to use your powers for good, not evil.
@@ -11,49 +9,49 @@ But beware! Strigo can be a bit unpredictable. Sometimes it may turn your string
 
 ## Functions
 
-### \``camelize`\`
+#### \``camelize`\`
 Converts a given string to camelCase.
 ```TypeScript
 function camelize(str: string): string;
 ```
 
-### \``capitalize`\`
+#### \``capitalize`\`
 Capitalizes the first letter of a given string.
 ```TypeScript
 function capitalize(str: string): string;
 ```
 
-### \``convertToSlug`\`
+#### \``convertToSlug`\`
 Converts a given string to a slug.
 ```TypeScript
 function convertToSlug(str: string): string;
 ```
 
-### \``countWords`\`
+#### \``countWords`\`
 Counts the number of words in a given string.
 ```TypeScript
 function countWords(str: string): number;
 ```
 
-### \``generateRandomPassword`\`
+#### \``generateRandomPassword`\`
 Generates a random password with a given length.
 ```TypeScript
 function generateRandomPassword(length: number): string;
 ```
 
-### \``limitStringByWord`\`
+#### \``limitStringByWord`\`
 Limits the length of a given string by a specified number of words.
 ```TypeScript
 function limitStringByWord(str: string, limit: number): string;
 ```
 
-### \``numberFormat`\`
+#### \``numberFormat`\`
 Formats a given number with commas as thousands separators.
 ```TypeScript
 function numberFormat(num: number): string;
 ```
 
-### \``translit`\`
+#### \``translit`\`
 Transliterates a given string from Cyrillic to Latin characters.
 ```TypeScript
 function translit(str: string): string;
