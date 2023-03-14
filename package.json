@@ -1,7 +1,7 @@
 {
   "name": "strigo",
   "version": "1.0.0",
-  "description": "Functions work with string.",
+  "description": "Library that contains several utility functions to manipulate strings.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
