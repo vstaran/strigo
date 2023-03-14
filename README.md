@@ -1,11 +1,8 @@
-
-
 # Strigo Utils
 
 Strigo is a TypeScript library that provides a range of utility functions for string manipulation. Whether you're building a web application, working with text data, or just need to manipulate strings in your code.
 
 But beware! Strigo can be a bit unpredictable. Sometimes it may turn your strings into frogs or send them to the moon. That's just the nature of magic. So if you're feeling brave, join the Strigo academy and unlock the full potential of your strings. Just remember to use your powers for good, not evil.
-
 
 ## Functions
 
@@ -24,13 +21,13 @@ function capitalize(str: string): string;
 #### \``convertToSlug`\`
 Converts a given string to a slug.
 ```TypeScript
-function convertToSlug(str: string): string;
+function convertToSlug(text: string): string;
 ```
 
 #### \``countWords`\`
 Counts the number of words in a given string.
 ```TypeScript
-function countWords(str: string): number;
+function countWords(text: string): number;
 ```
 
 #### \``generateRandomPassword`\`
@@ -42,19 +39,19 @@ function generateRandomPassword(length: number): string;
 #### \``limitStringByWord`\`
 Limits the length of a given string by a specified number of words.
 ```TypeScript
-function limitStringByWord(str: string, limit: number): string;
+function limitStringByWord(text: string, limit: number): string;
 ```
 
 #### \``numberFormat`\`
 Formats a given number with commas as thousands separators.
 ```TypeScript
-function numberFormat(num: number): string;
+function numberFormat(numValue: number, decimals: number = 0, decPoint: string = '.', thousandsSep: string = ' '): string;
 ```
 
 #### \``translit`\`
 Transliterates a given string from Cyrillic to Latin characters.
 ```TypeScript
-function translit(str: string): string;
+function translit(text: string): string;
 ```
 
 ## How to Install
@@ -63,7 +60,6 @@ You can install this library using npm. First, navigate to your project director
 ```bash
 npm install typescript-library
 ```
-
 
 ## Usage
 To use this library, simply import the desired function and call it with the appropriate arguments. For example:
@@ -86,4 +82,3 @@ This library is licensed under the [MIT License](https://opensource.org/license/
 
 ## Note
 No strings were harmed in the making of this library.
-
