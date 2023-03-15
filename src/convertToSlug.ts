@@ -1,4 +1,4 @@
-import translit from '../src/translit';
+import translit from './translit';
 
 /**
  * A utility function that converts a given string to a slug, which can be used as a part of a URL or a file name.

@@ -1,6 +1,6 @@
 {
   "name": "strigo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library that contains several utility functions to manipulate strings.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,7 @@
     "camelize", "capitalize", "convertToSlug", "countWords", "generateRandomPassword", "limitStringByWord", "numberFormat", "translit"
   ],
   "author": "vstaran",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "jest": "^29.5.0",

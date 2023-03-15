@@ -58,14 +58,14 @@ function translit(text: string): string;
 You can install this library using npm. First, navigate to your project directory in your terminal and run the following command:
 
 ```bash
-npm install typescript-library
+npm install strigo
 ```
 
 ## Usage
 To use this library, simply import the desired function and call it with the appropriate arguments. For example:
 
 ```TypeScript
-import { camelize } from 'typescript-library';
+import { camelize } from 'strigo';
 
 const myString = 'hello world';
 const camelizedString = camelize(myString);
